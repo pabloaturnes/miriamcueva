@@ -189,18 +189,29 @@ section > div > div{
 }
 
 
-.phrase-container > button{
+.whatsapp-link{
     font-size: 1.1rem;
     padding: 0.5rem;
     border-radius: 0.4rem;
     border: none;
+    background-color: white;
     color: green;
     cursor: pointer;
     transition: 0.4s ease-in all;
-    width: 100%;
+    width: 10rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.phrase-container > button:hover{
+.whatsapp-link > i {
+    font-size: 1.3rem;
+}
+
+
+.whatsapp-link:hover{
     color: white;
     background-color: green;
     transition: 0.4s ease-in all;
