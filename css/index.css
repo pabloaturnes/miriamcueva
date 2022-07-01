@@ -404,7 +404,7 @@ section > div > div{
     }
 
     .presentacion > i{
-        bottom: -5rem;
+        bottom: -15rem;
     }
 
     @keyframes bounce {
