@@ -403,6 +403,10 @@ section > div > div{
         font-size: 1.5rem;
     }
 
+    .presentacion > i{
+        bottom: 0;
+    }
+
     @keyframes bounce {
         0% {
           bottom: -2rem;
