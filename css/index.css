@@ -403,21 +403,18 @@ section > div > div{
         font-size: 1.5rem;
     }
 
-    .presentacion > i{
-        bottom: -15rem;
-    }
 
     @keyframes bounce {
         0% {
-          bottom: -2rem;
+          bottom: 0;
         }
       
         50% {
-          bottom: -4rem;
+          bottom: -2rem;
         }
     
         100%{
-            bottom: -2rem;
+            bottom: 0;
         }
       }
 
